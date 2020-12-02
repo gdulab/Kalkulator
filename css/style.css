@@ -1,0 +1,40 @@
+body {
+	width: 288px;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+}
+
+.calc{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.result {
+	border: 1px solid black;
+	height: 70px;
+	width: 286px;
+	background-color: grey;
+	float:left;
+	text-align: right;
+
+}
+.num {
+	height: 70px;
+	width: 70px;
+	background-color: #74D5F6;
+}
+.znak {
+
+	height: 70px;
+	width: 70px;
+	background-color: #B165EB;
+}
+.eq, .kasuj {
+	height: 70px;
+	width: 70px;
+	background-color:  #44F5C6;
+}
+.num, .znak, .eq, .kasuj{
+	float:left;
+	text-align: center;
+	border: 1px solid black;
+}
