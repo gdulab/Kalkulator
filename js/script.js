@@ -18,16 +18,15 @@ function dodawanie(){
 };
 function odejmowanie(){
 	wynik = wynik - liczba;
-
 };
 function dzielenie(){
-
-	wynik = wynik / liczba;
 	if(liczba==0){
-		res.innerHTML="No chyba Cie Bog opuscil...";
+		res.innerHTML="error";
 		liczba=0;
 		wynik=0;
 	}
+	wynik = wynik / liczba;
+	
 };
 function mnozenie(){
 	if(wynik==0){
@@ -69,7 +68,6 @@ for (var i = 0; i < znak.length; i++) {
 		res.innerHTML=liczba;
 	})
 	znak[i].addEventListener('click', function(){
-		wynik=liczba;
 		dzialanie=this.getAttribute('data');
 		res.innerHTML=wynik;
 		liczba=0;
