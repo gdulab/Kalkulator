@@ -82,4 +82,3 @@ for (var i = 0; i < znak.length; i++) {
 
 
 
-});
