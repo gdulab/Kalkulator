@@ -1,18 +1,24 @@
 body {
-	width: 288px;
-	font-family: 'Roboto', sans-serif;
+	width: 304px;
+	font-family: 'Russo One', sans-serif;
 	margin: auto;
 }
 
 .calc{
 	display: inline-block;
-	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(#8E96B2, #515A7A);
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 25px;
 }
 .result {
+	margin: auto;
 	border: 1px solid black;
+	border-radius: 5px;
 	height: 70px;
-	width: 286px;
-	background-color: grey;
+	width: 304px;
+	background-color: #D2D8EB;
 	float:left;
 	text-align: right;
 
@@ -20,20 +26,16 @@ body {
 .num {
 	height: 70px;
 	width: 70px;
-	background-color: #74D5F6;
+	background-color: #DAE1FF;
 }
-.znak {
-
+.znak, .eq, .kasuj{
 	height: 70px;
 	width: 70px;
-	background-color: #B165EB;
-}
-.eq, .kasuj {
-	height: 70px;
-	width: 70px;
-	background-color:  #44F5C6;
+	background-color: #95A1CA;
 }
 .num, .znak, .eq, .kasuj{
+	border-radius: 5px;
+	margin: 2px;
 	float:left;
 	text-align: center;
 	border: 1px solid black;
